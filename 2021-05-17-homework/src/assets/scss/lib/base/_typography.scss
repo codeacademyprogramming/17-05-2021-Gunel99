@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: $container-width;
+}
+ul{
+    list-style-type: none;
+    display: flex;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    color: #444444;
+}
+a:visited{
+    text-decoration: none;
+}
