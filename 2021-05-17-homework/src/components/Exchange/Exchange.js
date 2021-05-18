@@ -8,12 +8,6 @@ function Exchange() {
   const outputCurCodeRef = createRef();
 
   const exchange = () => {
-    // const inputCurCodeValRef = inputCurCodeRef.current.value;
-    // const outputCurCodeValRef = outputCurCodeRef.current.value;
-    
-    // const inputCurVal = inputCurRef.currency.value;
-    // const outputCurVal = outputCurRef.current.value;
-
     const input = rates.find(rate => rate.code === inputCurCodeRef.current.value).value;
     const output = rates.find(rate => rate.code === outputCurCodeRef.current.value).value;
 
@@ -24,7 +18,7 @@ function Exchange() {
     <div id="exchanger" className="py-4">
       <div className="container">
         <div className="row">
-          <form>
+          <form onSubmit={(e)=>e.preventDefault()}>
             <div className="mb-3">
               <label className="form-label">From</label>
               <div className="d-flex">

@@ -1,0 +1,23 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/2021-05-17-homework/node_modules
+/2021-05-17-homework/.pnp
+/2021-05-17-homework.pnp.js
+
+# testing
+/2021-05-17-homework/coverage
+
+# production
+/2021-05-17-homework/build
+
+# misc
+/2021-05-17-homework/.DS_Store
+/2021-05-17-homework/.env.local
+/2021-05-17-homework/.env.development.local
+/2021-05-17-homework/.env.test.local
+/2021-05-17-homework/.env.production.local
+
+/2021-05-17-homeworknpm-debug.log*
+/2021-05-17-homeworkyarn-debug.log*
+/2021-05-17-homeworkyarn-error.log*
