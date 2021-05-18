@@ -1,0 +1,29 @@
+#exchanger{
+    width: 30%;
+    margin: 100px auto;
+    border: 1px solid $section-bg-color;
+    border-radius: 10px;
+    background-color: $section-bg-color;
+    box-shadow: 9px 3px 10px $section-bg-color;
+    .container{
+        form{
+            label{
+                color: $label-color;
+            }
+            input{
+                width: 70%;
+                margin-right: 30px;
+            }
+            select{
+                width: 30%;
+            }
+            button{
+                width: 100%;
+            }
+        }
+    }
+    background: $section-bg-color;
+    // form{
+
+    // }
+}
